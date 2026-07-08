@@ -45,7 +45,7 @@ export default function KontaktOssPage() {
                 <h3 className="font-bold text-brand-black text-lg mb-6">Kontaktinformasjon</h3>
                 <div className="space-y-5">
                   {[
-                    { icon: Phone, label: 'Telefon', value: '+47 000 00 000', href: 'tel:+4700000000' },
+                    { icon: Phone, label: 'Telefon', value: '+47 400 51 437', href: 'tel:+4740051437' },
                     { icon: Mail, label: 'E-post', value: 'post@bodøbrannkonsult.no', href: 'mailto:post@bodøbrannkonsult.no' },
                     { icon: MapPin, label: 'Adresse', value: '[Gateadresse], Bodø', href: null },
                     { icon: Clock, label: 'Åpningstider', value: 'Man–Fre 08:00–16:00', href: null },

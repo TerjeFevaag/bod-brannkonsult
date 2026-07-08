@@ -51,7 +51,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'Bodø Brannkonsult AS',
   description: 'Brannprosjektering og brannkonsept i Bodø',
-  telephone: '+47 000 00 000',
+  telephone: '+47 400 51 437',
   email: 'post@bodøbrannkonsult.no',
   address: {
     '@type': 'PostalAddress',

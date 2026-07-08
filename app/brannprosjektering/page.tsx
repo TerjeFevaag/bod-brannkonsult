@@ -155,7 +155,7 @@ export default function BrannprosjekteringPage() {
               <Link href="/kontakt-oss" className="bg-brand-orange text-brand-white font-bold px-7 py-3 rounded-[10px] hover:opacity-90 transition-opacity">
                 Kontakt oss
               </Link>
-              <a href="tel:+4700000000" className="border-2 border-brand-white text-brand-white font-bold px-7 py-3 rounded-[10px] hover:bg-brand-white hover:text-brand-black transition-all duration-200 flex items-center gap-2">
+              <a href="tel:+4740051437" className="border-2 border-brand-white text-brand-white font-bold px-7 py-3 rounded-[10px] hover:bg-brand-white hover:text-brand-black transition-all duration-200 flex items-center gap-2">
                 <Phone size={16} /> Ring oss
               </a>
             </div>
