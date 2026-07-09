@@ -21,18 +21,18 @@ const dancing = Dancing_Script({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bodøbrannkonsult.no'),
-  title: 'Brannprosjektering i Bodø | Bodø Brannkonsult',
+  title: 'Brannprosjektering i Bodø | Brannkonsult AS',
   description:
-    'Bodø Brannkonsult tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten. Sentralt godkjent foretak. Få uforpliktende tilbud i dag.',
+    'Brannkonsult AS tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten. Sentralt godkjent foretak. Få uforpliktende tilbud i dag.',
   alternates: {
     canonical: 'https://www.bodøbrannkonsult.no',
   },
   openGraph: {
-    title: 'Brannprosjektering i Bodø | Bodø Brannkonsult',
+    title: 'Brannprosjektering i Bodø | Brannkonsult AS',
     description:
-      'Bodø Brannkonsult tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.',
+      'Brannkonsult AS tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.',
     url: 'https://www.bodøbrannkonsult.no',
-    siteName: 'Bodø Brannkonsult',
+    siteName: 'Brannkonsult AS',
     locale: 'nb_NO',
     type: 'website',
     images: [
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
         url: '/images/hero.jpg',
         width: 1200,
         height: 630,
-        alt: 'Bodø Brannkonsult',
+        alt: 'Brannkonsult AS',
       },
     ],
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  name: 'Bodø Brannkonsult AS',
+  name: 'Brannkonsult AS',
   description: 'Brannprosjektering og brannkonsept i Bodø',
   telephone: '+47 400 51 437',
   email: 'post@bodøbrannkonsult.no',

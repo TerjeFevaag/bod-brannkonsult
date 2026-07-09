@@ -6,7 +6,7 @@ import FAQAccordion from '@/components/FAQAccordion'
 import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata: Metadata = {
-  title: 'Brannprosjektering i Bodø | Bodø Brannkonsult',
+  title: 'Brannprosjektering i Bodø | Brannkonsult AS',
   description:
     'Profesjonell brannprosjektering i Bodø og Salten. Sentralt godkjent TKL 1+2. Fast pris fra ca. 15 000 kr. Kontakt oss for tilbygg, bruksendring og nybygg.',
   alternates: { canonical: 'https://www.bodøbrannkonsult.no/brannprosjektering' },

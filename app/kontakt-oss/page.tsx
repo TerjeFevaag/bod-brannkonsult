@@ -6,9 +6,9 @@ import ContactForm from '@/components/ContactForm'
 import ScrollReveal from '@/components/ScrollReveal'
 
 export const metadata: Metadata = {
-  title: 'Kontakt Bodø Brannkonsult | Få uforpliktende tilbud',
+  title: 'Kontakt Brannkonsult AS | Få uforpliktende tilbud',
   description:
-    'Kontakt Bodø Brannkonsult for uforpliktende tilbud på brannkonsept og brannprosjektering i Bodø. Sentralt godkjent foretak. Vi svarer innen 24 timer.',
+    'Kontakt Brannkonsult AS for uforpliktende tilbud på brannkonsept og brannprosjektering i Bodø. Sentralt godkjent foretak. Vi svarer innen 24 timer.',
   alternates: { canonical: 'https://www.bodøbrannkonsult.no/kontakt-oss' },
 }
 
@@ -25,7 +25,7 @@ export default function KontaktOssPage() {
             <span>Kontakt oss</span>
           </div>
           <h1 className="hero-2 text-brand-white text-4xl lg:text-5xl font-black max-w-2xl">
-            Kontakt Bodø Brannkonsult
+            Kontakt Brannkonsult AS
           </h1>
         </div>
       </section>

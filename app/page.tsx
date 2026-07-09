@@ -58,7 +58,7 @@ const reviews = [
   },
   {
     quote:
-      'Bodø Brannkonsult er lette å samarbeide med, de svarer raskt, finner gode løsninger og leverer arbeid av jevnt høy kvalitet. Brannotatene deres er praktiske og enkle å bruke.',
+      'Brannkonsult AS er lette å samarbeide med, de svarer raskt, finner gode løsninger og leverer arbeid av jevnt høy kvalitet. Brannotatene deres er praktiske og enkle å bruke.',
     author: 'Daniel Hagelin',
     company: 'Hagelin Byggservice',
   },
