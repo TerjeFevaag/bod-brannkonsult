@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Branntilsyn og branninspeksjon i Bodø | Brannkonsult AS',
   description:
     'Branntilsyn og branninspeksjon i Bodø. Fått pålegg fra brannvesenet? Sentralt godkjent foretak lager tilstandsrapport og handlingsplan. Kontakt oss i dag.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/branntilsyn' },
+  alternates: { canonical: 'https://www.bodøbrannkonsult.no/branninspeksjon' },
 }
 
 const faqItems = [
@@ -40,7 +40,7 @@ const faqItems = [
   },
 ]
 
-export default function BranntilsynPage() {
+export default function BranninspeksjonPage() {
   return (
     <>
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
@@ -50,7 +50,7 @@ export default function BranntilsynPage() {
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">
             <Link href="/" className="hover:underline">Hjem</Link>
             <span>/</span>
-            <span>Branntilsyn</span>
+            <span>Branninspeksjon</span>
           </div>
           <h1 className="hero-2 text-brand-white text-4xl lg:text-5xl font-black max-w-2xl">
             Branntilsyn og branninspeksjon i Bodø
