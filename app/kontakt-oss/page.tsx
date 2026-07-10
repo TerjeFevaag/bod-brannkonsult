@@ -47,7 +47,19 @@ export default function KontaktOssPage() {
                   {[
                     { icon: Phone, label: 'Telefon', value: '+47 400 51 437', href: 'tel:+4740051437' },
                     { icon: Mail, label: 'E-post', value: 'post@bodøbrannkonsult.no', href: 'mailto:post@bodøbrannkonsult.no' },
-                    { icon: MapPin, label: 'Adresse', value: '[Gateadresse], Bodø', href: null },
+                    {
+                      icon: MapPin,
+                      label: 'Postadresse',
+                      value: (
+                        <>
+                          <span className="block">
+                            Tromsø Brannkonsult AS <span className="font-normal text-brand-darkgray">(søsterselskap)</span>
+                          </span>
+                          <span className="block">Grønnegate 78/88, 9008 Tromsø</span>
+                        </>
+                      ),
+                      href: null,
+                    },
                     { icon: Clock, label: 'Åpningstider', value: 'Man–Fre 08:00–16:00', href: null },
                   ].map(({ icon: Icon, label, value, href }, i) => (
                     <div key={i} className="flex items-start gap-4">
@@ -67,6 +79,9 @@ export default function KontaktOssPage() {
                     </div>
                   ))}
                 </div>
+                <p className="text-brand-darkgray text-xs leading-relaxed mt-6 pt-5 border-t border-brand-gray">
+                  Vi har lokal tilhørighet i Bodø og tar oppdrag i hele Nord-Norge.
+                </p>
               </div>
 
               <div className="bg-brand-lightgray rounded-[30px] h-52 flex items-center justify-center">
