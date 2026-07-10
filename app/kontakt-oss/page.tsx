@@ -52,9 +52,7 @@ export default function KontaktOssPage() {
                       label: 'Postadresse',
                       value: (
                         <>
-                          <span className="block">
-                            Tromsø Brannkonsult AS <span className="font-normal text-brand-darkgray">(søsterselskap)</span>
-                          </span>
+                          <span className="block">Tromsø Brannkonsult AS</span>
                           <span className="block">Grønnegate 78/88, 9008 Tromsø</span>
                         </>
                       ),
