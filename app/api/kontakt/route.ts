@@ -1,7 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 const MAILERSEND_API_URL = 'https://api.mailersend.com/v1/email'
-const CONTACT_EMAIL = 'post@bodøbrannkonsult.no'
+// MailerSend expects the ASCII/punycode form of the domain — "bodøbrannkonsult.no"
+// is not a valid SMTP envelope address, since DNS itself only resolves the
+// punycode-encoded form (xn--bodbrannkonsult-7tb.no).
+const CONTACT_EMAIL = 'post@xn--bodbrannkonsult-7tb.no'
 const SENDER_NAME = 'Brannkonsult AS'
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
