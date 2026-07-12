@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Branntilsyn og branninspeksjon i Bodø | Brannkonsult AS',
   description:
     'Branntilsyn og branninspeksjon i Bodø. Fått pålegg fra brannvesenet? Sentralt godkjent foretak lager tilstandsrapport og handlingsplan. Kontakt oss i dag.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/branninspeksjon' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/branninspeksjon' },
 }
 
 const faqItems = [
@@ -40,11 +40,38 @@ const faqItems = [
   },
 ]
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Branninspeksjon', item: 'https://bodøbrannkonsult.no/branninspeksjon' },
+  ],
+}
+
 export default function BranninspeksjonPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
-        <Image src="/images/hero.jpg" alt="Bodø by" fill priority className="object-cover" sizes="100vw" />
+        <Image src="/images/hero.jpg" alt="Bodø sentrum — branninspeksjon fra Brannkonsult AS" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">

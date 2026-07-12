@@ -7,12 +7,25 @@ export const metadata: Metadata = {
   title: 'Riktig røykvarsler redder liv | Brannkonsult AS',
   description:
     'Krav til røykvarslere i norske boliger, forskjell mellom ionisasjon og optisk varsler, og anbefalt plassering. Råd fra sentralt godkjente brannrådgivere i Bodø.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/artikler/roykvarsler' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/artikler/roykvarsler' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Riktig røykvarsler', item: 'https://bodøbrannkonsult.no/artikler/roykvarsler' },
+  ],
 }
 
 export default function RoykVarslerPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="bg-brand-dark py-12 lg:py-16">
         <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-4">

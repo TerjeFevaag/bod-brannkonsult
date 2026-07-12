@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Om Brannkonsult AS | Sentralt godkjent brannrådgiver',
   description:
     'Brannkonsult AS er et sentralt godkjent brannrådgiverfirma med over 1200 prosjekter siden 2013. Vi tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/om-oss' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/om-oss' },
 }
 
 const process = [
@@ -19,11 +19,24 @@ const process = [
   { step: '5', title: 'Dokumentasjon levert', desc: 'Komplett leveranse klar for kommunen.' },
 ]
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Om oss', item: 'https://bodøbrannkonsult.no/om-oss' },
+  ],
+}
+
 export default function OmOssPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
-        <Image src="/images/hero.jpg" alt="Bodø by" fill priority className="object-cover" sizes="100vw" />
+        <Image src="/images/hero.jpg" alt="Bodø sentrum — om Brannkonsult AS" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">

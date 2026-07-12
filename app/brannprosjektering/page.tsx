@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Brannprosjektering i Bodø | Brannkonsult AS',
   description:
     'Profesjonell brannprosjektering i Bodø og Salten. Sentralt godkjent TKL 1+2. Fast pris fra ca. 15 000 kr. Kontakt oss for tilbygg, bruksendring og nybygg.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/brannprosjektering' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/brannprosjektering' },
 }
 
 const faqItems = [
@@ -40,11 +40,38 @@ const faqItems = [
   },
 ]
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Brannprosjektering', item: 'https://bodøbrannkonsult.no/brannprosjektering' },
+  ],
+}
+
 export default function BrannprosjekteringPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
-        <Image src="/images/hero.jpg" alt="Bodø by" fill priority className="object-cover" sizes="100vw" />
+        <Image src="/images/hero.jpg" alt="Bodø sentrum — brannprosjektering fra Brannkonsult AS" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">

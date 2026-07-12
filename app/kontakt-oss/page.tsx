@@ -9,14 +9,27 @@ export const metadata: Metadata = {
   title: 'Kontakt Brannkonsult AS | Få uforpliktende tilbud',
   description:
     'Kontakt Brannkonsult AS for uforpliktende tilbud på brannkonsept og brannprosjektering i Bodø. Sentralt godkjent foretak. Vi svarer innen 24 timer.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/kontakt-oss' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/kontakt-oss' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Kontakt oss', item: 'https://bodøbrannkonsult.no/kontakt-oss' },
+  ],
 }
 
 export default function KontaktOssPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
-        <Image src="/images/hero.jpg" alt="Bodø by" fill priority className="object-cover" sizes="100vw" />
+        <Image src="/images/hero.jpg" alt="Bodø sentrum — kontakt Brannkonsult AS" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">

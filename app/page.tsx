@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import { CheckCircle, ArrowRight, Phone } from 'lucide-react'
@@ -5,6 +6,13 @@ import ServiceCard from '@/components/ServiceCard'
 import FAQAccordion from '@/components/FAQAccordion'
 import ReviewCard from '@/components/ReviewCard'
 import ScrollReveal from '@/components/ScrollReveal'
+
+export const metadata: Metadata = {
+  title: 'Brannkonsult AS | Brannkonsept og brannprosjektering i Bodø',
+  description:
+    'Sentralt godkjent brannrådgiver i Bodø med over 1200 prosjekter siden 2013. Vi hjelper deg med brannkonsept, brannprosjektering, branninspeksjon og uavhengig kontroll — fast pris der det er mulig.',
+  alternates: { canonical: 'https://bodøbrannkonsult.no' },
+}
 
 const services = [
   {
@@ -97,6 +105,16 @@ const faqItems = [
   },
 ]
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+}
+
 const articles = [
   {
     href: '/artikler/pipebrann',
@@ -124,11 +142,15 @@ const articles = [
 export default function HomePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* ── HERO — Arctic Horizon: shorter ultra-wide band, text bottom-anchored ── */}
       <section className="relative h-[75vh] min-h-[540px] flex items-end">
         <Image
           src="/images/hero.jpg"
-          alt="Bodø by"
+          alt="Bodø sentrum og havn sett fra luften"
           fill
           priority
           className="object-cover"

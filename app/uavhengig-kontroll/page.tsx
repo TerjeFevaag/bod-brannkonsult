@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Uavhengig kontroll av brann i Bodø | Brannkonsult AS',
   description:
     'Uavhengig kontroll (UK) av brannkonsept i Bodø. Sentralt godkjent foretak kontrollerer brannkonsept og branntegninger mot TEK17. Fast pris. Kontakt oss i dag.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/uavhengig-kontroll' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/uavhengig-kontroll' },
 }
 
 const faqItems = [
@@ -35,11 +35,38 @@ const faqItems = [
   },
 ]
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Uavhengig kontroll', item: 'https://bodøbrannkonsult.no/uavhengig-kontroll' },
+  ],
+}
+
 export default function UavhengigKontrollPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="relative h-[40vh] min-h-[320px] flex items-end">
-        <Image src="/images/hero.jpg" alt="Bodø by" fill priority className="object-cover" sizes="100vw" />
+        <Image src="/images/hero.jpg" alt="Bodø sentrum — uavhengig kontroll fra Brannkonsult AS" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-10">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-3">

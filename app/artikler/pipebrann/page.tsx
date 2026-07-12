@@ -7,12 +7,25 @@ export const metadata: Metadata = {
   title: 'Forebygg pipebrann med enkle grep | Brannkonsult AS',
   description:
     'Lær hvordan du forebygger pipebrann. Regelmessig feieservice, riktig ved og god trekk er nøkkelen. Råd fra sentralt godkjente brannrådgivere i Bodø.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/artikler/pipebrann' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/artikler/pipebrann' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Forebygg pipebrann', item: 'https://bodøbrannkonsult.no/artikler/pipebrann' },
+  ],
 }
 
 export default function PipebrannPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="bg-brand-dark py-12 lg:py-16">
         <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-4">

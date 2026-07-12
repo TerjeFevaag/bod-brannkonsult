@@ -7,12 +7,25 @@ export const metadata: Metadata = {
   title: 'Har du riktig brannslokkeapparat? | Brannkonsult AS',
   description:
     'Hvilken type brannslokker trenger du? Vi gjennomgår krav til brannslokking i boliger, forskjellen mellom pulver og skum, og riktig bruk. Råd fra Brannkonsult AS.',
-  alternates: { canonical: 'https://www.bodøbrannkonsult.no/artikler/brannslokker' },
+  alternates: { canonical: 'https://bodøbrannkonsult.no/artikler/brannslokker' },
+}
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
+    { '@type': 'ListItem', position: 2, name: 'Riktig brannslokker', item: 'https://bodøbrannkonsult.no/artikler/brannslokker' },
+  ],
 }
 
 export default function BrannslokkePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="bg-brand-dark py-12 lg:py-16">
         <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-4">

@@ -20,18 +20,18 @@ const dancing = Dancing_Script({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.bodøbrannkonsult.no'),
-  title: 'Brannprosjektering i Bodø | Brannkonsult AS',
+  metadataBase: new URL('https://bodøbrannkonsult.no'),
+  title: 'Brannkonsult AS | Brannrådgiver i Bodø og Nord-Norge',
   description:
-    'Brannkonsult AS tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten. Sentralt godkjent foretak. Få uforpliktende tilbud i dag.',
+    'Sentralt godkjent brannrådgiver med over 1200 prosjekter siden 2013. Brannkonsept, brannprosjektering, branninspeksjon og uavhengig kontroll i Bodø og hele Nord-Norge.',
   alternates: {
-    canonical: 'https://www.bodøbrannkonsult.no',
+    canonical: 'https://bodøbrannkonsult.no',
   },
   openGraph: {
-    title: 'Brannprosjektering i Bodø | Brannkonsult AS',
+    title: 'Brannkonsult AS | Brannrådgiver i Bodø og Nord-Norge',
     description:
-      'Brannkonsult AS tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.',
-    url: 'https://www.bodøbrannkonsult.no',
+      'Sentralt godkjent brannrådgiver med over 1200 prosjekter siden 2013. Brannkonsept, brannprosjektering, branninspeksjon og uavhengig kontroll i Bodø og hele Nord-Norge.',
+    url: 'https://bodøbrannkonsult.no',
     siteName: 'Brannkonsult AS',
     locale: 'nb_NO',
     type: 'website',
@@ -58,7 +58,7 @@ const jsonLd = {
     addressLocality: 'Bodø',
     addressCountry: 'NO',
   },
-  url: 'https://www.bodøbrannkonsult.no',
+  url: 'https://bodøbrannkonsult.no',
   priceRange: 'Fra kr 15 000',
   hasCredential: 'Sentralt godkjent tiltaksklasse 1 og 2',
 }
