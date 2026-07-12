@@ -33,6 +33,11 @@ const faqItems = [
     answer:
       'Ja — det er faktisk et krav at den som utfører UK ikke er den samme som har prosjektert. Vi kan ta på oss uavhengig kontroll av brannkonsept utarbeidet av andre rådgivere.',
   },
+  {
+    question: 'Tilbyr dere uavhengig kontroll utenfor Bodø?',
+    answer:
+      'Ja. Foruten Bodø tilbyr vi uavhengig kontroll i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge.',
+  },
 ]
 
 const faqSchema = {

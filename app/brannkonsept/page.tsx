@@ -43,6 +43,11 @@ const faqItems = [
     answer:
       'Leveringstid avhenger av prosjektets omfang og vår arbeidsbelastning. For de fleste prosjekter leverer vi innen 5–10 virkedager etter mottatt bestilling og komplett underlag. Har du tidsfrist, oppgi dette i forespørselen.',
   },
+  {
+    question: 'Tilbyr dere brannkonsept utenfor Bodø?',
+    answer:
+      'Ja. Foruten Bodø tilbyr vi brannkonsept i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder — ta kontakt for en vurdering av ditt prosjekt.',
+  },
 ]
 
 const faqSchema = {

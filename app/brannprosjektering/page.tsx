@@ -38,6 +38,11 @@ const faqItems = [
     answer:
       'Vi trenger adresse, antall etasjer og bruksareal, plantegninger og en kort prosjektbeskrivelse. Jo mer informasjon vi får, jo mer presist kan vi prise oppdraget. Send det til oss på e-post eller via kontaktskjemaet.',
   },
+  {
+    question: 'Tilbyr dere brannprosjektering utenfor Bodø?',
+    answer:
+      'Ja. Foruten Bodø tilbyr vi brannprosjektering i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder.',
+  },
 ]
 
 const faqSchema = {

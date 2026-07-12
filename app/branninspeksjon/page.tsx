@@ -38,6 +38,11 @@ const faqItems = [
     answer:
       'Ja — alle eksisterende bygninger skal oppgraderes til et minimum tilsvarende det som gjaldt for nybygg i 1985 (BF85). For mange eldre bygg i Bodø betyr dette at det er behov for tiltak. Vi hjelper deg med å vurdere hva som er nødvendig.',
   },
+  {
+    question: 'Tilbyr dere branninspeksjon utenfor Bodø?',
+    answer:
+      'Ja. Foruten Bodø tilbyr vi branninspeksjon i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Ta kontakt for å avtale omfang og pris uansett hvor bygget ditt ligger.',
+  },
 ]
 
 const faqSchema = {
