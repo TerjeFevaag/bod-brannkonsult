@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { CheckCircle, ArrowRight, Phone } from 'lucide-react'
+import { ArrowRight, Phone } from 'lucide-react'
 import ServiceCard from '@/components/ServiceCard'
 import FAQAccordion from '@/components/FAQAccordion'
 import ReviewCard from '@/components/ReviewCard'
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Brannkonsult AS | Brannkonsept og brannprosjektering i Bodø',
   description:
     'Sentralt godkjent brannrådgiver i Bodø med over 1200 prosjekter siden 2013. Vi hjelper deg med brannkonsept, brannprosjektering, branninspeksjon og uavhengig kontroll — fast pris der det er mulig.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no' },
 }
 
 const services = [
@@ -270,7 +270,7 @@ export default function HomePage() {
       </section>
 
       {/* ── ARTICLES ── */}
-      <section className="py-16 lg:py-24 bg-brand-lightgray">
+      <section id="artikler" className="py-16 lg:py-24 bg-brand-lightgray">
         <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="flex items-end justify-between mb-10">
             <h2 className="text-brand-black text-3xl lg:text-4xl font-black">Nyttige artikler</h2>

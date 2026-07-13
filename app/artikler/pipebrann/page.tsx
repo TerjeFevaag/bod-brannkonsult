@@ -7,15 +7,15 @@ export const metadata: Metadata = {
   title: 'Forebygg pipebrann med enkle grep | Brannkonsult AS',
   description:
     'Lær hvordan du forebygger pipebrann. Regelmessig feieservice, riktig ved og god trekk er nøkkelen. Råd fra sentralt godkjente brannrådgivere i Bodø.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/artikler/pipebrann' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/artikler/pipebrann' },
 }
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Forebygg pipebrann', item: 'https://bodøbrannkonsult.no/artikler/pipebrann' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Forebygg pipebrann', item: 'https://xn--bodbrannkonsult-7tb.no/artikler/pipebrann' },
   ],
 }
 
@@ -31,7 +31,7 @@ export default function PipebrannPage() {
           <div className="hero-1 flex items-center gap-2 text-brand-orange text-sm mb-4">
             <Link href="/" className="hover:underline">Hjem</Link>
             <span>/</span>
-            <Link href="/" className="hover:underline">Artikler</Link>
+            <Link href="/#artikler" className="hover:underline">Artikler</Link>
             <span>/</span>
             <span>Forebygg pipebrann</span>
           </div>

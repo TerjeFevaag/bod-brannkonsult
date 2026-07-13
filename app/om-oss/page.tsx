@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Om Brannkonsult AS | Sentralt godkjent brannrådgiver',
   description:
     'Brannkonsult AS er et sentralt godkjent brannrådgiverfirma med over 1200 prosjekter siden 2013. Vi tilbyr brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/om-oss' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/om-oss' },
 }
 
 const process = [
@@ -23,8 +23,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Om oss', item: 'https://bodøbrannkonsult.no/om-oss' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Om oss', item: 'https://xn--bodbrannkonsult-7tb.no/om-oss' },
   ],
 }
 

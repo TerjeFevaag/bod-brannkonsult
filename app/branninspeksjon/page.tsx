@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Branntilsyn og branninspeksjon i Bodø | Brannkonsult AS',
   description:
     'Branntilsyn og branninspeksjon i Bodø. Fått pålegg fra brannvesenet? Sentralt godkjent foretak lager tilstandsrapport og handlingsplan. Kontakt oss i dag.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/branninspeksjon' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/branninspeksjon' },
 }
 
 const faqItems = [
@@ -59,8 +59,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Branninspeksjon', item: 'https://bodøbrannkonsult.no/branninspeksjon' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Branninspeksjon', item: 'https://xn--bodbrannkonsult-7tb.no/branninspeksjon' },
   ],
 }
 

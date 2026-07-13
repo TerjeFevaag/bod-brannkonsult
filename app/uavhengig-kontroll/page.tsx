@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Uavhengig kontroll av brann i Bodø | Brannkonsult AS',
   description:
     'Uavhengig kontroll (UK) av brannkonsept i Bodø. Sentralt godkjent foretak kontrollerer brannkonsept og branntegninger mot TEK17. Fast pris. Kontakt oss i dag.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/uavhengig-kontroll' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/uavhengig-kontroll' },
 }
 
 const faqItems = [
@@ -54,8 +54,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Uavhengig kontroll', item: 'https://bodøbrannkonsult.no/uavhengig-kontroll' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Uavhengig kontroll', item: 'https://xn--bodbrannkonsult-7tb.no/uavhengig-kontroll' },
   ],
 }
 

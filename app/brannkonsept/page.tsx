@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Brannkonsept i Bodø | Brannkonsult AS',
   description:
     'Brannkonsult AS utarbeider brannkonsept i Bodø og Salten. Sentralt godkjent TKL 1+2. Fra ca. 15 000 kr inkl. branntegninger. Kontakt oss for fastpristilbud.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/brannkonsept' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/brannkonsept' },
 }
 
 const faqItems = [
@@ -64,8 +64,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Brannkonsept', item: 'https://bodøbrannkonsult.no/brannkonsept' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Brannkonsept', item: 'https://xn--bodbrannkonsult-7tb.no/brannkonsept' },
   ],
 }
 

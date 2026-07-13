@@ -9,15 +9,15 @@ export const metadata: Metadata = {
   title: 'Kontakt Brannkonsult AS | Få uforpliktende tilbud',
   description:
     'Kontakt Brannkonsult AS for uforpliktende tilbud på brannkonsept og brannprosjektering i Bodø. Sentralt godkjent foretak. Vi svarer innen 24 timer.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/kontakt-oss' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/kontakt-oss' },
 }
 
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Kontakt oss', item: 'https://bodøbrannkonsult.no/kontakt-oss' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Kontakt oss', item: 'https://xn--bodbrannkonsult-7tb.no/kontakt-oss' },
   ],
 }
 

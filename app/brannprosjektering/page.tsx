@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Brannprosjektering i Bodø | Brannkonsult AS',
   description:
     'Profesjonell brannprosjektering i Bodø og Salten. Sentralt godkjent TKL 1+2. Fast pris fra ca. 15 000 kr. Kontakt oss for tilbygg, bruksendring og nybygg.',
-  alternates: { canonical: 'https://bodøbrannkonsult.no/brannprosjektering' },
+  alternates: { canonical: 'https://xn--bodbrannkonsult-7tb.no/brannprosjektering' },
 }
 
 const faqItems = [
@@ -59,8 +59,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://bodøbrannkonsult.no' },
-    { '@type': 'ListItem', position: 2, name: 'Brannprosjektering', item: 'https://bodøbrannkonsult.no/brannprosjektering' },
+    { '@type': 'ListItem', position: 1, name: 'Hjem', item: 'https://xn--bodbrannkonsult-7tb.no' },
+    { '@type': 'ListItem', position: 2, name: 'Brannprosjektering', item: 'https://xn--bodbrannkonsult-7tb.no/brannprosjektering' },
   ],
 }
 

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, type LucideIcon } from 'lucide-react'
 
 interface ServiceCardProps {
@@ -18,7 +19,7 @@ export default function ServiceCard({ icon: Icon, iconImage, title, description,
       <div className="h-1 w-10 bg-brand-orange rounded-full mb-6" />
       <div className="mb-6">
         {iconImage ? (
-          <img
+          <Image
             src={iconImage}
             alt={title}
             width={72}
