@@ -55,26 +55,29 @@ const stats = [
 const reviews = [
   {
     quote:
-      'Jeg fikk hjelp med en ny boenhet. Rask tilbakemelding og grundig rapport. Anbefaler andre å bruke Brannkonsult AS!',
-    author: 'Jan-David Antonsen',
-    company: 'Anton Arkitekt AS',
+      'På spørsmål om brannkonsept, og ansvarsrett for fagområdet, fikk vi raskt og proffesjonelt svar. Hyggelig, ryddig og konstruktiv oppfølging.',
+    author: 'Sivilarkitekt Sverre Krefting',
+    date: '30. april 2026',
   },
   {
     quote:
-      'Raskt svar, relevant og grundig rapport, kommunen likte måten det var gjort på. Ny oppdatert rapport innen kort tid. Alt til bra priser.',
-    author: 'Vegard Hals',
+      'Lett å få kontakt med firmaet på ulike spørsmål som dukker opp underveis. Jeg har kun hatt gode opplevelser, selv om ikke alt var helt klart for meg som ufaglært.',
+    author: 'Kirsti Andresen',
+    date: '8. mai 2026',
   },
   {
     quote:
-      'Brannkonsult AS er lette å samarbeide med, de svarer raskt, finner gode løsninger og leverer arbeid av jevnt høy kvalitet. Brannotatene deres er praktiske og enkle å bruke.',
-    author: 'Daniel Hagelin',
-    company: 'Hagelin Byggservice',
+      'Raske svar, ingen spørsmål er for små eller dumme, veldig hyggelige. Står frem som et meget seriøst firma med veldig god kompetanse i faget.',
+    author: 'Kjetil Iversen',
+    company: 'The Wagonshed Project AS',
+    date: '5. mai 2023',
   },
   {
     quote:
-      'Brannkonsult AS er faglig dyktige, ryddige og løsningsorienterte. Det er viktig for oss som arkitekter og for våre kunder.',
-    author: 'Jon Cederbrand',
-    company: 'Jon Cederbrand Arkitektur AS',
+      'Setter pris på foretak som Brannkonsult som gir rask respons, er løsningsorientert og leverer brannotater med høy nytteverdi.',
+    author: 'Espen Eriksen',
+    company: 'Lillestrøm Byggteknikk AS',
+    date: '27. mars 2024',
   },
 ]
 
