@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere uavhengig kontroll utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi uavhengig kontroll i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge.',
+      'Ja. Foruten Bodø tilbyr vi uavhengig kontroll i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge.',
   },
 ]
 

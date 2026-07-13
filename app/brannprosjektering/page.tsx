@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere brannprosjektering utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi brannprosjektering i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder.',
+      'Ja. Foruten Bodø tilbyr vi brannprosjektering i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder.',
   },
 ]
 

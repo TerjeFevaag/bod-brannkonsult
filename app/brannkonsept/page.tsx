@@ -46,7 +46,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere brannkonsept utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi brannkonsept i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder — ta kontakt for en vurdering av ditt prosjekt.',
+      'Ja. Foruten Bodø tilbyr vi brannkonsept i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder — ta kontakt for en vurdering av ditt prosjekt.',
   },
 ]
 

@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere branninspeksjon utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi branninspeksjon i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge. Ta kontakt for å avtale omfang og pris uansett hvor bygget ditt ligger.',
+      'Ja. Foruten Bodø tilbyr vi branninspeksjon i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Ta kontakt for å avtale omfang og pris uansett hvor bygget ditt ligger.',
   },
 ]
 

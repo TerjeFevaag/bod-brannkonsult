@@ -105,7 +105,7 @@ const faqItems = [
   {
     question: 'Tar dere oppdrag utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø hjelper vi kunder i blant annet Mo i Rana, Narvik, Fauske, Mosjøen og Sortland, samt resten av Nordland og Nord-Norge — og tar oppdrag over hele landet.',
+      'Ja. Foruten Bodø hjelper vi kunder i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge — og tar oppdrag over hele landet.',
   },
 ]
 
