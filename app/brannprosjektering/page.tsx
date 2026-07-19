@@ -16,32 +16,32 @@ const faqItems = [
   {
     question: 'Hva koster brannprosjektering i Bodø?',
     answer:
-      'Et brannkonsept i tiltaksklasse 2 starter fra ca. 15 000 kr ekskl. mva., inkludert branntegninger. Vi tilbyr alltid fastpris. Send oss tegninger og prosjektbeskrivelse for et nøyaktig tilbud.',
+      'Som en pekepinn: et brannkonsept i tiltaksklasse 2 ligger normalt fra 15 000 kr ekskl. mva., inkludert branntegninger — alltid som fastpris. Send oss tegninger og en kort beskrivelse, så får du et konkret tilbud.',
   },
   {
     question: 'Trenger jeg brannprosjektering for tilbygg eller bruksendring?',
     answer:
-      'Ja, de fleste tiltak som krever søknad til kommunen utløser også krav om brannprosjektering — dette gjelder tilbygg, påbygg, bruksendring, ny boenhet i eksisterende bygg og bytte av vinduer i brannvegg. Ta kontakt for en gratis vurdering.',
+      'Ja, i de aller fleste tilfeller. Søknadspliktige tiltak som tilbygg, påbygg, bruksendring, ny boenhet i eksisterende bygg eller bytte av vinduer i brannvegg utløser som regel krav om brannprosjektering. Ta kontakt, så vurderer vi saken din gratis.',
   },
   {
     question: 'Er befaring nødvendig?',
     answer:
-      'I de fleste saker er befaring ikke nødvendig. Med digitale kartdata, tegningsunderlag og bilder kan vi utarbeide god brannprosjektering uten å besøke bygget. Vi gir beskjed hvis vi ser behov for befaring.',
+      'Sjelden. Med kartdata, tegninger og bilder løser vi de fleste saker uten å reise ut. Skulle vi se behov for befaring, sier vi ifra før arbeidet starter.',
   },
   {
     question: 'Tilbyr dere håndverkertjenester?',
     answer:
-      'Nei — vi er en nøytral brannrådgiver og selger ingen produkter eller håndverkertjenester. Dette sikrer at rådgivningen alltid er i ditt beste interesse.',
+      'Nei, og det er bevisst. Vi tar ikke på oss byggearbeid eller selger produkter — kun brannteknisk rådgivning, slik at anbefalingene våre ikke er farget av andre interesser.',
   },
   {
     question: 'Hva trengs fra deg for å gi et pristilbud?',
     answer:
-      'Vi trenger adresse, antall etasjer og bruksareal, plantegninger og en kort prosjektbeskrivelse. Jo mer informasjon vi får, jo mer presist kan vi prise oppdraget. Send det til oss på e-post eller via kontaktskjemaet.',
+      'Adresse, antall etasjer og bruksareal, plantegninger og en kort beskrivelse av tiltaket. Mer informasjon gir et mer presist tilbud — send det du har på e-post eller via skjemaet.',
   },
   {
     question: 'Tilbyr dere brannprosjektering utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi brannprosjektering i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder.',
+      'Ja, i tillegg til Bodø prosjekterer vi jevnlig i Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, og ellers i Nordland. Det aller meste kan løses uten befaring, så geografi setter sjelden en stopper.',
   },
 ]
 
@@ -94,7 +94,7 @@ export default function BrannprosjekteringPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <p className="text-brand-darkgray text-lg leading-relaxed mb-8">
-              Brannprosjektering betyr skriftlig planlegging av nødvendig brannsikring i og rundt bygningen. Vi sørger for at ditt bygg i Bodø oppfyller alle krav i plan- og bygningsloven og brann- og eksplosjonsvernloven — til fast pris.
+              Brannprosjektering er den skriftlige planleggingen som viser at bygget oppfyller brann- og eksplosjonsvernloven og plan- og bygningsloven. Vi har prosjektert alt fra hytter ved Saltstraumen til leilighetsbygg i Bodø sentrum — alltid til fast pris.
             </p>
           </ScrollReveal>
 
@@ -179,7 +179,7 @@ export default function BrannprosjekteringPage() {
           <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
               <h3 className="text-brand-white text-xl lg:text-2xl font-black mb-1">
-                Be om tilbud på brannprosjektering i Bodø
+                Skal du i gang med et byggeprosjekt i Bodø?
               </h3>
               <p className="text-brand-white/60 text-sm">Vi svarer innen 24 timer.</p>
             </div>

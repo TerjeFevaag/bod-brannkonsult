@@ -13,8 +13,8 @@ export default function Footer() {
               <Image src="/images/logo-white.png" alt="Brannkonsult AS" width={234} height={72} className="object-contain" />
             </div>
             <p className="text-brand-white/60 text-sm leading-relaxed mb-6">
-              Sentralt godkjent foretak for brannprosjektering i tiltaksklasse 1 og 2. Vi hjelper
-              deg med brannkonsept, brannprosjektering og branntilsyn i Bodø og Salten.
+              Brannrådgivning for Bodø og Salten — fra brannkonsept til uavhengig kontroll.
+              Sentralt godkjent for tiltaksklasse 1 og 2.
             </p>
           </div>
 

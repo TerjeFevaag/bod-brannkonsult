@@ -19,65 +19,65 @@ const services = [
     iconImage: '/images/icon-brannkonsept.gif',
     title: 'Brannkonsept',
     description:
-      'Kommunen krever et brannkonsept ved de fleste byggesaker. Vi utarbeider helhetlige brannkonsept som ivaretar brannsikkerheten i ditt prosjekt — fra garasjer til leilighetsbygg.',
+      'Skal du bygge eller endre bruk av et bygg i Bodø, krever kommunen som regel et brannkonsept før søknaden kan behandles. Vi setter opp dokumentasjonen — fra en enkel garasje til et helt leilighetsbygg.',
     href: '/brannkonsept',
   },
   {
     iconImage: '/images/icon-brannprosjektering.gif',
     title: 'Brannprosjektering',
     description:
-      'Vi sørger for at bygget ditt oppfyller alle krav til brannsikkerhet, og finner praktiske løsninger som sparer både tid og kostnader. Fast pris der det er mulig.',
+      'Vi finner brannløsninger som holder mål uten å fordyre prosjektet unødvendig — enten det er et påbygg i Rønvik eller et næringsbygg ved havna.',
     href: '/brannprosjektering',
   },
   {
     iconImage: '/images/icon-branntilsyn.png',
     title: 'Branninspeksjon',
     description:
-      'Har du fått pålegg etter branntilsyn, eller ønsker du en grundig gjennomgang av byggets brannsikkerhet? Vi inspiserer hele bygningen og utarbeider tilstandsrapport.',
+      'Har brannvesenet vært på besøk, eller lurer du på tilstanden i en eldre bygård fra gjenreisningen? Vi går gjennom bygget og dokumenterer hva som eventuelt må utbedres.',
     href: '/branninspeksjon',
   },
   {
     iconImage: '/images/icon-uavhengig-kontroll.png',
     title: 'Uavhengig kontroll',
     description:
-      'I mange byggeprosjekter er det krav om uavhengig kontroll av brannsikkerheten. Vi sikrer at brannkonseptet er i tråd med gjeldende forskrifter.',
+      'Bygger du i tiltaksklasse 2 eller høyere, er uavhengig kontroll et lovkrav. Vi kontrollerer at brannkonseptet holder mål før søknaden går videre til kommunen.',
     href: '/uavhengig-kontroll',
   },
 ]
 
 const stats = [
-  { number: '1200+', label: 'Prosjekter' },
-  { number: 'TKL 1+2', label: 'Sentralt godkjent' },
-  { number: 'Fast pris', label: 'Der det er mulig' },
-  { number: 'Hele landet', label: 'Vi tar oppdrag overalt' },
+  { number: '1200+', label: 'Prosjekter siden 2013' },
+  { number: 'TKL 1+2', label: 'Godkjent hos DiBK' },
+  { number: 'Fastpris', label: 'Alltid, uansett omfang' },
+  { number: 'Nordland', label: 'Og resten av landet' },
 ]
 
 const reviews = [
   {
     quote:
-      'På spørsmål om brannkonsept, og ansvarsrett for fagområdet, fikk vi raskt og proffesjonelt svar. Hyggelig, ryddig og konstruktiv oppfølging.',
-    author: 'Sivilarkitekt Sverre Krefting',
-    date: '30. april 2026',
+      'Har god opplevelse og anbefaler denne tjenesten på det sterkeste, vi skal nå kjøpe ny enebolig og kommer til å benytte oss av denne tjenesten som er rask og enkel.',
+    author: 'Yasin Khan',
+    date: '10. mars 2025',
   },
   {
     quote:
-      'Lett å få kontakt med firmaet på ulike spørsmål som dukker opp underveis. Jeg har kun hatt gode opplevelser, selv om ikke alt var helt klart for meg som ufaglært.',
-    author: 'Kirsti Andresen',
-    date: '8. mai 2026',
+      'God oppfølging, god gjennomføring og god dialog underveis. Fornøyd med samarbeidet!',
+    author: 'Henrik E. Larsen',
+    company: 'aCorp Construction AS',
+    date: '12. juli 2023',
   },
   {
     quote:
-      'Raske svar, ingen spørsmål er for små eller dumme, veldig hyggelige. Står frem som et meget seriøst firma med veldig god kompetanse i faget.',
-    author: 'Kjetil Iversen',
-    company: 'The Wagonshed Project AS',
-    date: '5. mai 2023',
+      'Meget god kommunikasjon og rask levering på jobben som skulle gjøres. Helt nydelig, fordi det var nøyaktig det jeg hadde håpa på.',
+    author: 'Karen Marie Berg',
+    date: '11. september 2023',
   },
   {
     quote:
-      'Setter pris på foretak som Brannkonsult som gir rask respons, er løsningsorientert og leverer brannotater med høy nytteverdi.',
-    author: 'Espen Eriksen',
-    company: 'Lillestrøm Byggteknikk AS',
-    date: '27. mars 2024',
+      'Veldig godt gjennomarbeidet rapport, god pris, levert innen rett tid!',
+    author: 'Tore Brakstad',
+    company: 'Øyvar AS',
+    date: '26. august 2024',
   },
 ]
 
@@ -85,27 +85,27 @@ const faqItems = [
   {
     question: 'Hva koster brannprosjektering i Bodø?',
     answer:
-      'Prisen varierer etter omfang og kompleksitet. Et brannkonsept i tiltaksklasse 2 starter hos oss fra ca. 15 000 kr ekskl. mva., inkludert branntegninger. Vi tilbyr alltid fastpris.',
+      'Det kommer an på omfang og kompleksitet. Som utgangspunkt starter et brannkonsept i tiltaksklasse 2 på rundt 15 000 kr eks. mva., inkludert branntegninger — og du får alltid fastpris før vi setter i gang.',
   },
   {
     question: 'Trenger jeg brannprosjektering for mitt prosjekt?',
     answer:
-      'De fleste byggesaker krever brannprosjektering — tilbygg, bruksendring, ny boenhet, påbygg. Ta kontakt for en gratis vurdering av ditt prosjekt.',
+      'Ja, mest sannsynlig. Kommunen krever brannteknisk dokumentasjon i de aller fleste byggesaker som involverer tilbygg, bruksendring, nye boenheter eller påbygg. Usikker på ditt konkrete prosjekt? Ta kontakt, så vurderer vi det gratis.',
   },
   {
     question: 'Er befaring nødvendig?',
     answer:
-      'For nybygg og enklere saker er det ofte ikke nødvendig. Takket være digitale verktøy og kartdata kan vi i mange tilfeller jobbe uten fysisk befaring.',
+      'Sjelden. De fleste prosjekter lar seg løse med situasjonsplan, tegninger og bilder du sender oss — vi ber om befaring bare når bygget er komplisert eller mangler oppdatert tegningsunderlag.',
   },
   {
     question: 'Er dere sentralt godkjent?',
     answer:
-      'Ja, vi har sentral godkjenning for brannprosjektering i tiltaksklasse 1 og 2. Dette er en garanti for at vi er seriøse, godt forsikret og har dokumenterte referanseprosjekter.',
+      'Ja, for brannprosjektering i tiltaksklasse 1 og 2. Godkjenningen fra DiBK dokumenterer at vi har kompetansen, forsikringen og kvalitetssystemet som kreves for å ta ansvarsrett i byggesaken.',
   },
   {
-    question: 'Tar dere oppdrag utenfor Bodø?',
+    question: 'Jobber dere kun i Bodø?',
     answer:
-      'Ja. Foruten Bodø hjelper vi kunder i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge — og tar oppdrag over hele landet.',
+      'Nei. Bodø er kjerneområdet vårt, men vi tar jevnlig oppdrag i Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten — og ellers i Nordland og Nord-Norge. De fleste prosjekter løses digitalt, så avstand er sjelden noe hinder.',
   },
 ]
 
@@ -125,21 +125,21 @@ const articles = [
     image: '/images/article-pipebrann.jpg',
     title: 'Forebygg pipebrann med enkle grep',
     excerpt:
-      'Er du i faresonen for å kunne få brann i skorsteinen? Les om hva som forårsaker pipebrann og enkle tiltak for å redusere risikoen.',
+      'Lange, kalde vintre betyr mye fyring i Bodø og Salten — og dermed økt risiko for pipebrann. Vi går gjennom hva som forårsaker det og hvordan du forebygger.',
   },
   {
     href: '/artikler/brannslokker',
     image: '/images/article-brannslukker.jpg',
     title: 'Har du riktig brannslokkeapparat?',
     excerpt:
-      'Vet du hvilken type brannslokker du trenger i hjemmet? Vi gjennomgår krav og forskjellen mellom pulver- og skumapparater.',
+      'Vet du hvilken type brannslokker som faktisk passer boligen din? Vi går gjennom forskjellen på pulver- og skumapparat, og hva som bør henge på veggen.',
   },
   {
     href: '/artikler/roykvarsler',
     image: '/images/article-roykvarsler.jpg',
     title: 'Riktig røykvarsler redder liv',
     excerpt:
-      'Er du godt nok sikret hvis det oppstår brann om natten? Vi forklarer krav til røykvarslere og riktig plassering.',
+      'Med mørketid store deler av vinteren er varsling om natten ekstra viktig. Vi forklarer krav til røykvarslere og riktig plassering.',
   },
 ]
 
@@ -163,14 +163,14 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-brand-black/85 via-brand-black/40 to-transparent" />
         <div className="relative z-10 w-full max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 pb-12 lg:pb-16">
           <p className="hero-1 font-accent text-brand-orange text-xl lg:text-2xl mb-3">
-            Vi hjelper deg med brannprosjektering i Bodø og Salten
+            Brannrådgiver for Bodø og Nordland
           </p>
           <h1 className="hero-2 text-brand-white text-4xl lg:text-6xl xl:text-7xl font-black leading-[1.05] mb-6 max-w-3xl">
             Brannprosjektering i Bodø
           </h1>
           <p className="hero-3 text-brand-white/80 text-base lg:text-lg leading-relaxed mb-8 max-w-xl">
-            Sentralt godkjent foretak med over 1200 gjennomførte prosjekter. Fast pris, rask
-            levering og personlig oppfølging — fra enkle tilbygg til store leilighetsbygg.
+            Fra etterkrigsbebyggelsen i sentrum til nye felt i Rønvik og Mørkved — vi kjenner
+            byggene som står i Bodø i dag. Sentralt godkjent foretak, fastpris og svar innen 24 timer.
           </p>
           <div className="hero-4 flex flex-wrap gap-4">
             <Link
@@ -209,7 +209,7 @@ export default function HomePage() {
           <ScrollReveal className="text-center mb-12">
             <p className="font-accent text-brand-orange text-xl mb-2">Våre tjenester</p>
             <h2 className="text-brand-black text-3xl lg:text-4xl font-black">
-              Hva kan vi hjelpe deg med?
+              Brannfaglig bistand fra søknad til ferdigattest
             </h2>
           </ScrollReveal>
           <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 -mx-4 px-4 lg:mx-0 lg:px-0 lg:grid lg:grid-cols-4 lg:overflow-visible lg:pb-0">
@@ -230,8 +230,8 @@ export default function HomePage() {
       <section className="py-16 lg:py-24 bg-brand-white">
         <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal className="text-center mb-12">
-            <p className="font-accent text-brand-orange text-xl mb-2">Kundene våre sier</p>
-            <h2 className="text-brand-black text-3xl lg:text-4xl font-black">Hva sier kundene?</h2>
+            <p className="font-accent text-brand-orange text-xl mb-2">Referanser</p>
+            <h2 className="text-brand-black text-3xl lg:text-4xl font-black">Dette sier kundene våre</h2>
           </ScrollReveal>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {reviews.map((r, i) => (
@@ -322,10 +322,11 @@ export default function HomePage() {
           <ScrollReveal variant="fade" className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
               <h2 className="text-brand-white text-2xl lg:text-3xl font-black mb-2">
-                Klar for å komme i gang?
+                Har du et byggeprosjekt i Bodø eller Salten?
               </h2>
               <p className="text-brand-white/80 text-base lg:text-lg max-w-xl">
-                Ta kontakt i dag for et uforpliktende tilbud på brannprosjektering i Bodø.
+                Send oss situasjonsplan og tegninger, så vurderer vi det kostnadsfritt —
+                med fastpristilbud i hånden innen 24 timer.
               </p>
             </div>
             <div className="flex flex-wrap justify-center gap-4 shrink-0">

@@ -36,7 +36,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere uavhengig kontroll utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi uavhengig kontroll i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge.',
+      'Ja, blant annet i Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, og ellers i Nordland. Send oss brannkonseptet, så vurderer vi omfanget uavhengig av hvor bygget ligger.',
   },
 ]
 
@@ -89,7 +89,7 @@ export default function UavhengigKontrollPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <p className="text-brand-darkgray text-lg leading-relaxed mb-8">
-              I mange byggeprosjekter er det krav om uavhengig kontroll (UK) av brannsikkerheten. Kontrollen skal sikre at brannkonseptet er i tråd med gjeldende forskrifter og at prosjekteringen holder nødvendig kvalitet. Dette gir økt trygghet, reduserer risiko for feil og bidrar til en mer forutsigbar byggeprosess.
+              I mange byggeprosjekter er det krav om uavhengig kontroll (UK) av brannsikkerheten. Kontrollen skal sikre at brannkonseptet er i tråd med gjeldende forskrifter og at prosjekteringen holder nødvendig kvalitet. Vi har utført uavhengig kontroll på alt fra boligblokker i Bodø sentrum til næringsbygg langs havna — det gir økt trygghet og en mer forutsigbar byggeprosess.
             </p>
           </ScrollReveal>
 
@@ -158,7 +158,7 @@ export default function UavhengigKontrollPage() {
           <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
               <h3 className="text-brand-white text-xl lg:text-2xl font-black mb-1">
-                Kontakt oss for uavhengig kontroll i Bodø
+                Trenger prosjektet ditt uavhengig kontroll?
               </h3>
               <p className="text-brand-white/60 text-sm">Vi svarer innen 24 timer.</p>
             </div>

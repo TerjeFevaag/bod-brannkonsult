@@ -19,34 +19,34 @@ const faqItems = [
       'Et brannkonsept er en mer helhetlig rapport som beskriver brannsikkerhetsnivået til hele byggverket. Et brannteknisk notat er enklere og brukes for mindre tiltak. Vi veileder deg til riktig løsning for ditt prosjekt — ta kontakt for en gratis vurdering.',
   },
   {
-    question: 'Er befaring nødvendig for brannkonsept?',
+    question: 'Trenger dere å besøke bygget?',
     answer:
-      'For nybygg og enklere saker er det sjelden nødvendig med befaring. Takket være digitale kartdata og gode tegningsunderlag kan vi i mange tilfeller utarbeide brannkonseptet uten fysisk befaring. Vi gir beskjed dersom vi ser behov for det.',
+      'Ikke i de fleste tilfeller. Med situasjonsplan, gode tegninger og bilder kommer vi som regel i mål uten fysisk befaring. Er bygget uoversiktlig eller mangler oppdatert tegningsunderlag, sier vi ifra før vi starter.',
   },
   {
     question: 'Hva koster et brannkonsept i Bodø?',
     answer:
-      'Et brannkonsept i tiltaksklasse 2 starter fra ca. 15 000 kr ekskl. mva., inkludert branntegninger. Vi tilbyr alltid fastpris slik at du slipper ubehagelige overraskelser. Send oss informasjon om prosjektet for et nøyaktig tilbud.',
+      'Et brannkonsept i tiltaksklasse 2 koster normalt fra 15 000 kr ekskl. mva., branntegninger inkludert. Du får alltid fastpris, så du vet totalkostnaden før vi setter i gang.',
   },
   {
-    question: 'Tilbyr dere håndverkertjenester?',
+    question: 'Selger dere også byggetjenester?',
     answer:
-      'Nei — vi er en nøytral rådgiver og selger ingen produkter eller håndverkertjenester. Dette sikrer at rådgivningen vår alltid er uavhengig og i ditt beste interesse.',
+      'Nei. Vi er utelukkende brannrådgivere og har ingen tilknytning til entreprenører eller produktleverandører — det holder oss nøytrale og rådene våre upåvirket av salgsinteresser.',
   },
   {
     question: 'Hva trengs for å få et pristilbud?',
     answer:
-      'For å gi et nøyaktig tilbud trenger vi: adresse/matrikkel, antall etasjer og bruksareal, tegninger (situasjonsplan og plantegninger) og en kort prosjektbeskrivelse. Send dette til oss så sender vi tilbud innen 24 timer.',
+      'For et nøyaktig tilbud trenger vi adresse eller matrikkel, antall etasjer og bruksareal, tegninger (situasjonsplan og plan) og en kort beskrivelse av prosjektet. Send oss det du har, så har du et fastpristilbud innen 24 timer.',
   },
   {
     question: 'Hvor lang tid tar det å utarbeide et brannkonsept?',
     answer:
-      'Leveringstid avhenger av prosjektets omfang og vår arbeidsbelastning. For de fleste prosjekter leverer vi innen 5–10 virkedager etter mottatt bestilling og komplett underlag. Har du tidsfrist, oppgi dette i forespørselen.',
+      'Som regel 5–10 virkedager fra vi har mottatt bestilling og komplett underlag, avhengig av prosjektets omfang og vår arbeidsmengde. Har du en frist å forholde deg til, si ifra i forespørselen.',
   },
   {
     question: 'Tilbyr dere brannkonsept utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi brannkonsept i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Mye av arbeidet kan gjøres digitalt uten befaring, så avstand er sjelden noe hinder — ta kontakt for en vurdering av ditt prosjekt.',
+      'Ja — Bodø er kjerneområdet, men vi utarbeider brannkonsept også i Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, og ellers i Nordland. Siden det meste løses digitalt, er avstand sjelden noe problem.',
   },
 ]
 
@@ -108,7 +108,7 @@ export default function BrannkonseptPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <p className="text-brand-darkgray text-lg leading-relaxed mb-8">
-              Et brannkonsept er en skriftlig rapport som oppsummerer bygningens brannsikkerhetsnivå. Ved byggesaker krever kommunen som regel prosjekteringsdokumentasjon på brannkonseptnivå — en helhetlig overordnet plan som ivaretar brannsikkerheten både for det omsøkte tiltaket og den øvrige bygningsmassen. Vi hjelper private, arkitekter, entreprenører og utbyggere i Bodø og omegn med å utarbeide komplette brannkonsept til fast pris.
+              Et brannkonsept er en skriftlig rapport som dokumenterer bygningens brannsikkerhetsnivå, og de fleste byggesaker i Bodø kommune krever et slikt konsept før søknaden kan behandles. Konseptet skal dekke både det omsøkte tiltaket og bygningsmassen for øvrig — enten det er en ny boenhet i et etterkrigsbygg i sentrum eller et næringsbygg på Stormyra. Vi hjelper private, arkitekter, entreprenører og utbyggere i Bodø og Salten med å utarbeide komplette brannkonsept til fast pris.
             </p>
           </ScrollReveal>
 
@@ -204,7 +204,7 @@ export default function BrannkonseptPage() {
           <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
               <h3 className="text-brand-white text-xl lg:text-2xl font-black mb-1">
-                Kontakt oss for uforpliktende tilbud på brannkonsept i Bodø
+                Trenger du et brannkonsept i Bodø?
               </h3>
               <p className="text-brand-white/60 text-sm">Vi svarer innen 24 timer.</p>
             </div>

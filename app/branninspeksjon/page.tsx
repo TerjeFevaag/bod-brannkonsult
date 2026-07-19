@@ -41,7 +41,7 @@ const faqItems = [
   {
     question: 'Tilbyr dere branninspeksjon utenfor Bodø?',
     answer:
-      'Ja. Foruten Bodø tilbyr vi branninspeksjon i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, samt resten av Nordland og Nord-Norge. Ta kontakt for å avtale omfang og pris uansett hvor bygget ditt ligger.',
+      'Ja. Vi har vært på oppdrag i blant annet Mo i Rana, Narvik, Fauske, Mosjøen, Sortland, Værøy og Lofoten, og tar gjerne turen andre steder i Nordland også. Ta kontakt, så avtaler vi omfang uansett hvor bygget ligger.',
   },
 ]
 
@@ -158,7 +158,7 @@ export default function BranninspeksjonPage() {
           <div className="max-w-[1350px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-6">
             <div className="text-center lg:text-left">
               <h3 className="text-brand-white text-xl lg:text-2xl font-black mb-1">
-                Kontakt oss for hjelp etter branntilsyn i Bodø
+                Fått pålegg fra brannvesenet i Bodø?
               </h3>
               <p className="text-brand-white/60 text-sm">Vi svarer innen 24 timer.</p>
             </div>
